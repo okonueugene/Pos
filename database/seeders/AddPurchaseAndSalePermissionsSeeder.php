@@ -29,7 +29,7 @@ class AddPurchaseAndSalePermissionsSeeder extends Seeder
         ];
         foreach ($permissions as $permission) {
             $permissionExist = Permission::whereName($permission['name'])->exists();
-            if (! $permissionExist) {
+            if (!$permissionExist) {
                 Permission::create($permission);
             }
         }
