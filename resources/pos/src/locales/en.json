@@ -654,6 +654,7 @@
     "converted.status.label": "Converted",
     "mail-settings.sender-name.title": "Sender Name",
     "mail-settings.title": "Mail Settings",
+    "tax-settings.title": "Tax Settings",
     "mail-settings.success.edit.message": "Mail setting updated successfully",
     "settings.system-settings.select.postcode.validate.length.label": "Postal Code length should not be more than 8",
     "best-customer.report.title": "Best Customers",

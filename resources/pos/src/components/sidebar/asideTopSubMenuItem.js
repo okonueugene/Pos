@@ -176,6 +176,8 @@ const AsideTopSubMenuItem = (props) => {
                                             mainItems.registerReportPath ||
                                         location.pathname ===
                                             mainItems.mailSettingsPath ||
+                                            location.pathname ===
+                                            mainItems.taxSettingsPath ||
                                         location.pathname ===
                                             mainItems.profitLossReportPath ||
                                         location.pathname.includes(

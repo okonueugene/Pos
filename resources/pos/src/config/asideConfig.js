@@ -501,6 +501,7 @@ export default [
         to: "/app/settings",
         prefixesPath: "/app/prefixes",
         mailSettingsPath: "/app/mail-settings",
+        taxSettingsPath: "/app/tax-settings",
         class: "d-flex",
         isSamePrefix: "true",
         permission: Permissions.MANAGE_SETTING,
@@ -520,6 +521,10 @@ export default [
             {
                 title: getFormattedMessage("mail-settings.title"),
                 to: "/app/mail-settings",
+            },
+            {
+                title: getFormattedMessage("tax-settings.title"),
+                to: "/app/tax-settings",
             },
         ],
     },

@@ -74,6 +74,7 @@ import EditQuotation from "./components/quotations/EditQuotation";
 import CreateQuotationSale from "./components/quotations/CreateQuotationSale";
 import QuotationDetails from "./components/quotations/QuotationDetails";
 import MailSettings from "./components/settings/MailSettings";
+import TaxSettings from "./components/settings/TaxSettings";
 import SmsTemplates from "./components/sms-templates/SmsTemplates";
 import EditSmsTemplate from "./components/sms-templates/EditSmsTemplate";
 import BestCustomerReport from "./components/report/best-customerReport/BestCustomerReport";
